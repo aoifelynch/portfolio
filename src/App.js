@@ -7,8 +7,8 @@ import PageNotFound from './pages/PageNotFound';
 // components
 import Navbar from './components/Navbar';
 import RedirectExample from './pages/RedirectExample';
-import BooksIndex from './pages/books/Index';
-import BooksShow from './pages/books/Show';
+import ProjectIndex from './pages/projects/Index';
+import ProjectShow from './pages/projects/Show';
 
 const App = (() => {
   return(
@@ -22,9 +22,9 @@ const App = (() => {
         <Route path={"/contact"} element={<Contact />} />
         <Route path={"*"} element={<PageNotFound />}  />
         <Route path={"/redirect"} element={<RedirectExample />} />
-        
-        <Route path={"/books"} element={<BooksIndex />} />
-        <Route path={"/books/:id"} element={<BooksShow />} />
+
+        <Route path={"/projects"} element={<ProjectIndex/>} />
+        <Route path={"/projects/:slug"} element={<ProjectShow/>} />
 
       </Routes>
     </Router>
