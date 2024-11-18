@@ -9,10 +9,12 @@ import Navbar from './components/Navbar';
 import RedirectExample from './pages/RedirectExample';
 import ProjectIndex from './pages/projects/Index';
 import ProjectShow from './pages/projects/Show';
+import { Provider } from "./components/ui/provider"
 
 const App = (() => {
   return(
     <>
+    <Provider>
     <Router>
      <Navbar />
 
@@ -28,6 +30,7 @@ const App = (() => {
 
       </Routes>
     </Router>
+    </Provider>
     </>
   )
 })
