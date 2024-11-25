@@ -1,6 +1,7 @@
 [
     {
         "slug": "react-todo-app",
+        "demo": "todo-app",
         "title": "React To-Do App",
         "description": "This was my first React application. We used localStorage to store the To-Do items.",
         "categories": ["Front-End Development"],
@@ -23,6 +24,7 @@
     },
     {
         "slug": "rest-countries",
+        "demo": "giphy-app",
         "title": "Rest Countries",
         "description": "This was my second React application. It connected to 2 API's.",
         "categories": ["Front-End Development"],
