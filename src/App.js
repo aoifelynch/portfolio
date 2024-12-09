@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import PageNotFound from './pages/PageNotFound';
 // components
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import RedirectExample from './pages/RedirectExample';
 import ProjectIndex from './pages/projects/Index';
 import ProjectShow from './pages/projects/Show';
@@ -29,6 +30,7 @@ const App = (() => {
         <Route path={"/projects/:slug"} element={<ProjectShow/>} />
 
       </Routes>
+      <Footer />
     </Router>
     </Provider>
     </>

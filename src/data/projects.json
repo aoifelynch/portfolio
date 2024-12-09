@@ -44,5 +44,28 @@
         "date": "31/10/2024",
         "github": "https://github.com/aoifelynch/ca1_reactcountries.git"
         
+    },
+    {
+        "slug": "greenville-deli",
+        "demo": "greenville-deli",
+        "title": "Greenville Deli",
+        "description": "This project was to create an updated version of the Greenville Deli website using different CSS frameworks.",
+        "categories": ["Front-End Development"],
+        "technologies": ["Bootstrap", "HTML", "Javascript"],
+        "images": [
+            {
+                "caption": "Screenshot 1",
+                "url": "/images/countries-1.png"
+            }
+        ],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://aoifesproject.netlify.app/"
+            }
+        ],
+        "date": "13/12/2023",
+        "github": "https://github.com/aoifelynch/my-sass-project.git"
+        
     }
 ]
