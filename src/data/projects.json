@@ -9,7 +9,7 @@
         "images": [
             {
                 "caption": "Screenshot 1",
-                "url": "/images/todo-1.png"
+                "url": "todolist.png"
             }
         ],
         "links": [
@@ -24,15 +24,14 @@
     },
     {
         "slug": "rest-countries",
-        "demo": "giphy-app",
         "title": "Rest Countries",
         "description": "This was my second React application. It connected to 2 API's.",
         "categories": ["Front-End Development"],
-        "technologies": ["React.js", "Bootstrap CSS", "Axios", "Rest API"],
+        "technologies": ["React.js", "Bootstrap CSS", "Axios", "API"],
         "images": [
             {
                 "caption": "Screenshot 1",
-                "url": "/images/countries-1.png"
+                "url": "countries-1.png"
             }
         ],
         "links": [
@@ -47,7 +46,6 @@
     },
     {
         "slug": "greenville-deli",
-        "demo": "greenville-deli",
         "title": "Greenville Deli",
         "description": "This project was to create an updated version of the Greenville Deli website using different CSS frameworks.",
         "categories": ["Front-End Development"],
@@ -55,7 +53,7 @@
         "images": [
             {
                 "caption": "Screenshot 1",
-                "url": "/images/countries-1.png"
+                "url": "greenville.png"
             }
         ],
         "links": [

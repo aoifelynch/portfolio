@@ -42,50 +42,103 @@ const Home = () => {
       </div>
 
       <div class="container mx-auto px-4 py-12">
-        <h2 class="text-3xl font-bold mb-4">
-          Take a look at some of my previous projects:
-        </h2>
+        <div class="flex justify-between items-center pt-2">
+          <h2 class="text-3xl font-bold mb-4">
+            Take a look at some of my previous projects:
+          </h2>
+          <a href="/projects">
+            <button class="btn btn-primary w-44 text-base">See All My Stuff</button>
+          </a>
+        </div>
+
         <div class="carousel w-full">
-          <div id="item1" class="carousel-item w-full">
+
+          <div id="item1" class="carousel-item w-full relative group">
             <img
-              src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-              class="w-full"
+              src={require('../images/countries-1.png')}
+              className="w-full h-96 object-cover transition-all duration-300 ease-in-out"
+              alt="Rest Countries"
             />
+            <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out flex justify-center items-center">
+              <a
+                href="https://aoife-reactcountries.web.app"
+                class="text-white text-xl font-bold"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Rest Countries
+              </a>
+            </div>
           </div>
-          <div id="item2" class="carousel-item w-full">
+
+
+          <div id="item2" class="carousel-item w-full relative group">
             <img
-              src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-              class="w-full"
+              src={require('../images/greenville.png')}
+              className="w-full h-96 object-cover transition-all duration-300 ease-in-out"
+              alt="Greenville Deli"
             />
+            <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out flex justify-center items-center">
+              <a
+                href="https://aoifesproject.netlify.app/"
+                class="text-white text-xl font-bold"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Greenville Deli
+              </a>
+            </div>
           </div>
-          <div id="item3" class="carousel-item w-full">
+
+
+          <div id="item3" class="carousel-item w-full relative group">
             <img
               src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-              class="w-full"
+              class="w-full h-96 object-cover transition-all duration-300 ease-in-out"
+              alt="Stock photo"
             />
+            <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out flex justify-center items-center">
+              <a
+                href="https://example-link.com"
+                class="text-white text-xl font-bold"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Stock Photo
+              </a>
+            </div>
           </div>
-          <div id="item4" class="carousel-item w-full">
+
+
+          <div id="item4" class="carousel-item w-full relative group">
             <img
               src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-              class="w-full"
+              class="w-full h-96 object-cover transition-all duration-300 ease-in-out"
+              alt="Stock photo"
             />
+            <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out flex justify-center items-center">
+              <a
+                href="https://example-link.com"
+                class="text-white text-xl font-bold"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Stock Photo
+              </a>
+            </div>
           </div>
         </div>
+
         <div class="flex w-full justify-center gap-2 py-2">
-          <a href="#item1" class="btn btn-xs">
-            1
-          </a>
-          <a href="#item2" class="btn btn-xs">
-            2
-          </a>
-          <a href="#item3" class="btn btn-xs">
-            3
-          </a>
-          <a href="#item4" class="btn btn-xs">
-            4
-          </a>
+          <a href="#item1" class="btn btn-xs">1</a>
+          <a href="#item2" class="btn btn-xs">2</a>
+          <a href="#item3" class="btn btn-xs">3</a>
+          <a href="#item4" class="btn btn-xs">4</a>
         </div>
-        <a href="/projects"><button class="btn btn-primary w-36">See All My Stuff</button></a>
+
+
+
+
       </div>
     </>
   );
