@@ -2,17 +2,17 @@ const Home = () => {
   return (
     <>
       <div class="container mx-auto px-4 py-12">
-        <div class="grid md:grid-cols-2 gap-8">
+        <div class="grid md:grid-cols-2 gap-10">
           <div class="flex flex-col justify-center">
             <h1 class="text-4xl font-bold mb-4">Hi! I'm Aoife :)</h1>
-            <p class="mb-6 text-gray-600">I am a third-year Creative Computing student at IADT. Welcome to my portfolio!</p>
+            <p class="text-lg mb-6 text-gray-600">I am a third-year Creative Computing student at IADT. Welcome to my portfolio!</p>
             <a href="/about"><button class="btn btn-primary w-36">About Me!</button></a>
           </div>
 
           <div class="relative">
             <div class="absolute -top-4 -right-4 w-full h-full bg-secondary rounded-lg"></div>
             <img
-              src="https://avatars.githubusercontent.com/u/125558208?v=4"
+              src={require('../images/aoifepics.jpg')}
               class="relative rounded-lg shadow-lg"
             />
           </div>
@@ -22,19 +22,19 @@ const Home = () => {
           <div class="relative">
             <div class="absolute -top-4 -right-4 w-full h-full bg-secondary rounded-lg"></div>
             <img
-              src="https://avatars.githubusercontent.com/u/125558208?v=4"
+              src={require('../images/aoifepcpic.jpg')}
               class="relative rounded-lg shadow-lg"
             />
           </div>
 
           <div class="flex flex-col justify-center">
             <h2 class="text-4xl font-bold mb-4">Top Skills</h2>
-            <ul class="list-disc pl-6 text-gray-600 mb-6">
+            <ul class="list-disc pl-6 text-lg text-gray-600 mb-6">
               <li>Javascript</li>
               <li>PHP</li>
               <li>Front-end Development</li>
               <li>React.js</li>
-              <li>Laravel</li>
+              <li>Design & Prototyping</li>
             </ul>
             <a href="https://www.linkedin.com/in/aoife-lynch-3687401ba/"><button class="btn btn-primary w-36">See my LinkedIn</button></a>
           </div>
@@ -93,18 +93,18 @@ const Home = () => {
 
           <div id="item3" class="carousel-item w-full relative group">
             <img
-              src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+              src={require('../images/grapevine.png')}
               class="w-full h-96 object-cover transition-all duration-300 ease-in-out"
-              alt="Stock photo"
+              alt="Grapevine"
             />
             <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out flex justify-center items-center">
               <a
-                href="https://example-link.com"
+                href="https://aoifegrapevine.netlify.app/"
                 class="text-white text-xl font-bold"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Stock Photo
+                The Grapevine News
               </a>
             </div>
           </div>
@@ -112,18 +112,18 @@ const Home = () => {
 
           <div id="item4" class="carousel-item w-full relative group">
             <img
-              src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+              src={require('../images/digidepotss.png')}
               class="w-full h-96 object-cover transition-all duration-300 ease-in-out"
               alt="Stock photo"
             />
             <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out flex justify-center items-center">
               <a
-                href="https://example-link.com"
+                href="#"
                 class="text-white text-xl font-bold"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Stock Photo
+                DigiDepot
               </a>
             </div>
           </div>

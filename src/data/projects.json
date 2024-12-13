@@ -3,7 +3,7 @@
         "slug": "react-todo-app",
         "demo": "todo-app",
         "title": "React To-Do App",
-        "description": "This was my first React application. We used localStorage to store the To-Do items.",
+        "description": "This was my first React application, it is a simple To-Do list with Create/Delete functionality. We used localStorage to store the To-Do items. ",
         "categories": ["Front-End Development"],
         "technologies": ["React.js", "Bootstrap CSS"],
         "images": [
@@ -25,7 +25,7 @@
     {
         "slug": "rest-countries",
         "title": "Rest Countries",
-        "description": "This was my second React application. It connected to 2 API's.",
+        "description": "This was my second React application. It connected to 2 API's. I have a built in World Map that is connected to the Countries API, each country is clickable which takes the user to the designated page for that country. It also has a functioning search bar for all countries.",
         "categories": ["Front-End Development"],
         "technologies": ["React.js", "Bootstrap CSS", "Axios", "API"],
         "images": [
@@ -47,7 +47,7 @@
     {
         "slug": "greenville-deli",
         "title": "Greenville Deli",
-        "description": "This project was to create an updated version of the Greenville Deli website using different CSS frameworks.",
+        "description": "This second-year project was to create an updated version of the Greenville Deli website using different CSS frameworks. This was created with the use of Bootstrap and some Javascript to get features such as the carousel functional.",
         "categories": ["Front-End Development"],
         "technologies": ["Bootstrap", "HTML", "Javascript"],
         "images": [
@@ -64,6 +64,50 @@
         ],
         "date": "13/12/2023",
         "github": "https://github.com/aoifelynch/my-sass-project.git"
+        
+    },
+    {
+        "slug": "grapevine",
+        "title": "Grapevine News",
+        "description": "This was my first-year integrated project. We used MySQL databases and PHP to create the website. This demo, however, is unfortunately the static HTML version of the website before we added databases and PHP.",
+        "categories": ["Design"],
+        "technologies": ["PHP", "HTML", "MySQL"],
+        "images": [
+            {
+                "caption": "Screenshot 1",
+                "url": "grapevine.png"
+            }
+        ],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://aoifegrapevine.netlify.app/"
+            }
+        ],
+        "date": "13/12/2023",
+        "github": "N/A"
+        
+    },
+    {
+        "slug": "medicalcentre",
+        "title": "Medical Centre",
+        "description": "This is my second website built using API's. We used Axios, Javascript and React.js. I was able to link some of the API calls together such as showing the prescriptions and diagnoses that are linked to a patient. I also used React Big Calender to display the appointments.",
+        "categories": ["Front-End Development"],
+        "technologies": ["API", "React.js", "Javascript", "Axios"],
+        "images": [
+            {
+                "caption": "Screenshot 1",
+                "url": "medicalclinic.png"
+            }
+        ],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://medicalcentre-e830c.web.app/"
+            }
+        ],
+        "date": "13/12/2023",
+        "github": "https://github.com/aoifelynch/medclinic_ca2"
         
     }
 ]
