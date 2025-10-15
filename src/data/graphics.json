@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Grief Support Poster",
+    "description": "Grief support group poster I designed for The Misneach Centre. Made using Canva",
+    "category": "Poster Design",
+    "image": "../images/griefPoster.png",
+    "tools": ["Canva"],
+    "year": "2025"
+  },
+  {
+    "id": 2,
+    "title": "Event Invitation Flyer",
+    "description": "Opening day event flyer I designed for The Misneach Centre. Made using Canva",
+    "category": "Flyer Design",
+    "image": "../images/invitationFlyer.png",
+    "tools": ["Canva"],
+    "year": "2024"
+  },
+  {
+    "id": 3,
+    "title": "Women's Circle Poster",
+    "description": "Women's circle poster I designed for The Misneach Centre. Made using Canva",
+    "category": "Poster Design",
+    "image": "../images/womenPoster.png",
+    "tools": ["Canva"],
+    "year": "2025"
+  },
+  {
+    "id": 4,
+    "title": "Misneach Centre Logo (Current)",
+    "description": "Final design for The Misneach Centre, this is the latest version that I created when it was upgraded from private practice to a business of over 15 people. I kept the ogham script ('Misneach' meaning Courage in Irish) but opted for a new colour scheme and a cleaner look",
+    "category": "Logo Design",
+    "image": "../images/LogoTransparent.jpeg",
+    "tools": ["Digital Design"],
+    "year": "2024"
+  },
+  {
+    "id": 5,
+    "title": "Misneach Centre Logo (Original)",
+    "description": "This was the original logo design for The Misneach Centre when it was a private practice. I created this on my phone many years ago, the only prompt I got from Anita (founder) was that she would like the ogham script and from there I created this logo. It has since been updated to a newer, sleeker version but keeps the same layout.",
+    "category": "Logo Design",
+    "image": "../images/320x400.jpeg",
+    "tools": ["Mobile Design"],
+    "year": "2020"
+  }
+]

@@ -37,19 +37,28 @@ const Index = () => {
 
   return (
     <>
-      <div className="breadcrumbs text-sm ml-2">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/projects">Projects</a></li>
-        </ul>
-      </div>
-      <div className="container mx-auto px-4 py-12">
-        <h2 className="text-3xl font-bold mb-4">My Projects</h2>
-        <div className="gap-4 mb-6">
-        <FilterProjects setSearchTerm={setSearchTerm} setSelectedCategory={setSelectedCategory} />
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {projectCards}
+      {/* Hero Section */}
+      <div className="bg-gradient-to-br from-purple-200 via-pink-200 to-blue-200 min-h-screen">
+        <div className="container mx-auto px-4 py-20">
+          <div className="text-center mb-16">
+            <h1 className="text-5xl font-bold text-gray-800 mb-6">
+              Web Projects
+            </h1>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              Explore my web development projects including React applications, responsive websites, 
+              and full-stack solutions. Each project showcases different technologies and problem-solving approaches.
+            </p>
+          </div>
+
+          {/* Filter Section */}
+          <div className="mb-12">
+            <FilterProjects setSearchTerm={setSearchTerm} setSelectedCategory={setSelectedCategory} />
+          </div>
+
+          {/* Projects Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {projectCards}
+          </div>
         </div>
       </div>
     </>
