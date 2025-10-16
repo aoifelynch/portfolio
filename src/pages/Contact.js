@@ -175,7 +175,7 @@ const Contact = () => {
                                             value={formData.subject}
                                             onChange={handleChange}
                                             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300"
-                                            placeholder="What's this about?"
+                                            placeholder="Get me hooked!"
                                         />
                                     </div>
 
@@ -191,7 +191,7 @@ const Contact = () => {
                                             value={formData.message}
                                             onChange={handleChange}
                                             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-300 resize-none"
-                                            placeholder="Tell me about your project or just say hello!"
+                                            placeholder="Ask me anything!"
                                         />
                                     </div>
 

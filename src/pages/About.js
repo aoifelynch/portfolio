@@ -24,7 +24,7 @@ const About = () => {
             
             <div className="chat chat-end">
               <div className="chat-bubble bg-white/90 backdrop-blur-sm text-gray-800 shadow-lg">
-                Okay, so, my name is Aoife Lynch. I'm twenty years old. I was born in Kerry, lived in Australia for a few years and now I live in Dublin whilst studying my degree at IADT.
+                Okay, so, my name is Aoife Lynch. I'm twenty-one years old. I was born in Kerry, lived in Australia for a few years and now I live in Dublin whilst studying my degree at IADT. I work part-time in my local cinema and also do side-projects for my mother's business whenever she needs help.
               </div>
             </div>
             
@@ -36,7 +36,7 @@ const About = () => {
             
             <div className="chat chat-end">
               <div className="chat-bubble bg-white/90 backdrop-blur-sm text-gray-800 shadow-lg">
-                Who has time for hobbies these days!? JK... if I ever have a day off it is spent either with my friends, playing games or catching up on TV (I will have my cat with me during all of those instances)
+                Yeah, I love to travel and explore new places, I've been to 15 countries so far, not bad for a 21-year-old! However, in my normal day-to-day life I like to hang out with friends and family, explore Dublin and try out new recipes in the kitchen.
               </div>
             </div>
 
@@ -48,7 +48,7 @@ const About = () => {
             
             <div className="chat chat-end">
               <div className="chat-bubble bg-white/90 backdrop-blur-sm text-gray-800 shadow-lg">
-                Well after I get this degree, I'm planning on continuing to live and work in Dublin. However, the dream is to be able to go between Australia and Dublin while working remotely (year-long summer!)
+                Once I finish my degree I would love to stay in Dublin and work as a front-end developer. I might also consider furthering my education in UI/UX design as I find that side of things really interesting. I'mm not impartial to the idea of working abroad for a few years either, that would be a great experience!
               </div>
             </div>
             
