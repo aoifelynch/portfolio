@@ -25,7 +25,7 @@
     {
         "slug": "rest-countries",
         "title": "Rest Countries",
-        "description": "This was my second React application. It connected to 2 API's. I have a built in World Map that is connected to the Countries API, each country is clickable which takes the user to the designated page for that country. It also has a functioning search bar for all countries.",
+        "description": "This was my second React application. It connected to 2 API's. I have a built in World Map that is connected to the Countries API, each country is clickable which takes the user to the designated page for that country. It also has a functioning search bar for all countries. NOTE: Refresh the page if the flags do not initially load.",
         "categories": ["Front-End Development"],
         "technologies": ["React.js", "Bootstrap CSS", "Axios", "API"],
         "images": [
@@ -37,7 +37,7 @@
         "links": [
             {
                 "title": "Website",
-                "url": "https://aoife-reactcountries.web.app"
+                "url": "https://aoife-reactcountries.web.app/"
             }
         ],
         "date": "01/11/2024",
@@ -130,6 +130,38 @@
         ],
         "date": "01/05/2025",
         "github": "https://github.com/clo12358/campus-post-client"
+        
+    },
+    {
+        "slug": "game1",
+        "title": "Unity Game Project",
+        "description": "For my games development module, I created a simple 3D platformer game using Unity and C#. It is a relitavely short game with a few collectables, light features and assets. The objective is to collect all the items needed to survive while avoiding obstacles to reach shelter. Screencast available.",
+        "categories": ["Game Development"],
+        "technologies": ["Unity", "C#"],
+        "images": [
+            {
+                "caption": "Screenshot 1",
+                "url": "game.png"
+            }
+        ],
+        "date": "25/10/2024",
+        "github": "https://github.com/aoifelynch/gamesdev_ca1"
+        
+    },
+    {
+        "slug": "game2",
+        "title": "Unity Game Project 2",
+        "description": "My second assignment in the Games Development module was created with Unity and C#. We were in pairs so I worked with a classmate to create a simple 3D adventure game. There are two levels to this game and the objective is to collect as many coins as possible while avoiding obstacles. We included a health bar that would decrease every time the player walked into something they shouldn't (eg. Water/Lava). Screencast available.",
+        "categories": ["Game Development"],
+        "technologies": ["Unity", "C#"],
+        "images": [
+            {
+                "caption": "Screenshot 1",
+                "url": "game2.png"
+            }
+        ],
+        "date": "18/12/2024",
+        "github": "https://github.com/aoifelynch/CA2_AoifeChloe"
         
     }
 ]
