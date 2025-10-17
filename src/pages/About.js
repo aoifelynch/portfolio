@@ -48,7 +48,7 @@ const About = () => {
             
             <div className="chat chat-end">
               <div className="chat-bubble bg-white/90 backdrop-blur-sm text-gray-800 shadow-lg">
-                Once I finish my degree I would love to stay in Dublin and work as a front-end developer. I might also consider furthering my education in UI/UX design as I find that side of things really interesting. I'mm not impartial to the idea of working abroad for a few years either, that would be a great experience!
+                Once I finish my degree I would love to stay in Dublin and work as a front-end developer. I might also consider furthering my education in UI/UX design as I find that side of things really interesting. I'm not impartial to the idea of working abroad for a few years either, that would be a great experience!
               </div>
             </div>
             

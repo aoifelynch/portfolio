@@ -97,7 +97,7 @@ const Home = () => {
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8">
                 {[
                   'JavaScript', 'React.js', 'PHP & Laravel', 'HTML & CSS', 'MySQL', 'Unity',
-                  'Tailwind CSS', 'Bootstrap', 'WordPress', 'Figma', 'Git', 'SASS'
+                  'Tailwind & Bootstrap CSS', 'Node.js', 'WordPress', 'Figma', 'MongoDB', 'Object Oriented Programming'
                 ].map((skill, index) => (
                   <div key={index} className="bg-gradient-to-r from-purple-100 to-pink-100 rounded-lg p-3 text-center shadow-sm hover:shadow-md transition-shadow duration-300">
                     <span className="text-sm font-medium text-gray-700">{skill}</span>
