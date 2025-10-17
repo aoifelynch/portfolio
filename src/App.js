@@ -5,6 +5,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import PageNotFound from './pages/PageNotFound';
 import Graphics from './pages/Graphics';
+import GraphicsShow from './pages/GraphicsShow';
 // components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -25,6 +26,7 @@ const App = (() => {
         <Route path={"/about"} element={<About />} />
         <Route path={"/contact"} element={<Contact />} />
         <Route path={"/graphics"} element={<Graphics />} />
+        <Route path={"/graphics/:id"} element={<GraphicsShow />} />
         <Route path={"*"} element={<PageNotFound />}  />
         <Route path={"/redirect"} element={<RedirectExample />} />
 

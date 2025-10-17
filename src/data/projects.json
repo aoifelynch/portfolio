@@ -40,7 +40,7 @@
                 "url": "https://aoife-reactcountries.web.app"
             }
         ],
-        "date": "31/10/2024",
+        "date": "01/11/2024",
         "github": "https://github.com/aoifelynch/ca1_reactcountries.git"
         
     },
@@ -106,8 +106,30 @@
                 "url": "https://medicalcentre-e830c.web.app/"
             }
         ],
-        "date": "13/12/2023",
+        "date": "17/12/2024",
         "github": "https://github.com/aoifelynch/medclinic_ca2"
+        
+    },
+    {
+        "slug": "campuspost",
+        "title": "Campus Post",
+        "description": "This was my third-year final project. It was a social media website specifically for college students in Ireland, made for people to connect, rebuild the social community of college life. Users could post to a General Board or a board for their specific college. They could add tags to their post to refine it such as #Events or #Accommodation. Chloe Dwyer was my partner for this project, I focused on front-end whilst she focused on back-end. We used React.js for the front-end along with a range of npm packages. We used Laravel, Laravel Cloud and Laravel Sanctum for the back-end, API creation and storage. It is hosted my Firebase but we had to turn off the API and storage as it was incurring costs, therefore is unusable today. Screencast available",
+        "categories": ["Full-Stack Development"],
+        "technologies": ["API", "React.js", "Javascript", "Axios", "Laravel", "Laravel Cloud", "Laravel Sanctum", "MySQL", "Tailwind CSS"],
+        "images": [
+            {
+                "caption": "Screenshot 1",
+                "url": "campuspost.png"
+            }
+        ],
+        "links": [
+            {
+                "title": "Website",
+                "url": "https://campuspost.web.app/"
+            }
+        ],
+        "date": "01/05/2025",
+        "github": "https://github.com/clo12358/campus-post-client"
         
     }
 ]

@@ -137,25 +137,25 @@ const Home = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
             {[
               { 
+                src: 'campuspost.png', 
+                title: 'Campus Post', 
+                desc: 'Social media platform for college students in Ireland with React and Laravel',
+                link: 'https://campuspost.web.app/',
+                tech: ['React.js', 'Laravel', 'Tailwind CSS', 'MySQL']
+              },
+              { 
+                src: 'medicalclinic.png', 
+                title: 'Medical Centre', 
+                desc: 'Healthcare management system with API integration and calendar functionality',
+                link: 'https://medicalcentre-e830c.web.app/',
+                tech: ['React.js', 'API', 'Javascript', 'Axios']
+              },
+              { 
                 src: 'countries-1.png', 
                 title: 'Rest Countries App', 
                 desc: 'Interactive world map with country data using React and APIs',
                 link: 'https://aoife-reactcountries.web.app',
-                tech: ['React.js', 'API Integration', 'Responsive Design']
-              },
-              { 
-                src: 'greenville.png', 
-                title: 'Greenville Deli', 
-                desc: 'Restaurant website with modern design and user experience',
-                link: 'https://aoifesproject.netlify.app/',
-                tech: ['HTML5', 'CSS3', 'JavaScript']
-              },
-              { 
-                src: 'grapevine.png', 
-                title: 'The Grapevine News', 
-                desc: 'News website with responsive layout and dynamic content',
-                link: 'https://aoifegrapevine.netlify.app/',
-                tech: ['React.js', 'CSS Framework', 'News API']
+                tech: ['React.js', 'Bootstrap CSS', 'Axios', 'API']
               }
             ].map((project, index) => (
               <div key={index} className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden">

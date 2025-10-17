@@ -78,10 +78,10 @@ const Graphics = () => {
           {/* Graphics Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredGraphics.map((item) => (
-              <div
+              <a
                 key={item.id}
-                className="bg-white/90 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group cursor-pointer transform hover:scale-105"
-                onClick={() => openModal(imageMap[item.image], item.title)}
+                href={`/graphics/${item.id}`}
+                className="block bg-white/90 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group cursor-pointer transform hover:scale-105"
               >
                 <div className="relative overflow-hidden">
                   <img
@@ -125,7 +125,7 @@ const Graphics = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </div>

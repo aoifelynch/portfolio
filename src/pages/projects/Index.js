@@ -4,9 +4,17 @@ import ProjectCard from "../../components/ProjectCard";
 import FilterProjects from '../../components/FilterProjects';
 
 const Index = () => {
-  const [projectsList, setProjectsList] = useState(projectsJSON);
+  // Sort projects by date (newest to oldest)
+  const sortedProjects = [...projectsJSON].sort((a, b) => {
+    // Convert DD/MM/YYYY format to Date objects for comparison
+    const dateA = new Date(a.date.split('/').reverse().join('/'));
+    const dateB = new Date(b.date.split('/').reverse().join('/'));
+    return dateB - dateA; // Newest first
+  });
+
+  const [projectsList, setProjectsList] = useState(sortedProjects);
   const [searchTerm, setSearchTerm] = useState("");
-  const [filteredList, setFilteredList] = useState(projectsJSON);
+  const [filteredList, setFilteredList] = useState(sortedProjects);
   const [selectedCategory, setSelectedCategory] = useState("All");
 
   useEffect(() => {
